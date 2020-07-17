@@ -1,0 +1,54 @@
+spring:
+  application:
+    name: ziptodest-ui
+endpoints:
+  actuator:
+    enabled: true
+management:
+  security:
+    enabled: false
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+---
+spring:
+  profiles: cloud
+  cloud:
+    config:
+       uri: http://zd-config-stage.app.paas.fedex.com 
+---
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+---
+management:
+  endpoint:
+    health:
+      show-details: always        
+---
+server:
+  servlet:
+    context-path: /ziptodest
+---
+spring:
+  cloud:
+    refresh:
+      extra-refreshable: javax.sql.DataSource
+        
+    
+---       
+ spring:
+   profiles: development
+   cloud:
+     config:
+       uri: http://zd-config-development.app.wtcdev1.paas.fedex.com
+      
+# ---  
+# spring:
+#   profiles: lcl
+#   cloud:
+#     config:
+#       uri:  http://zd-config.app.pghdev1.paas.fedex.com   

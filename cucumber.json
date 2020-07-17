@@ -1,0 +1,6279 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 12,
+        "name": "Verify State - Province controller",
+        "description": "",
+        "id": "state---province-validation;verify-state---province-controller;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1618848800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The base URI is up and running for state API",
+            "match": {
+              "location": "ZipToDestAPIStepDefinition.the_base_URI_is_up_and_running_state()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1061303300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User verifies \"AB\" in particular \"0\" and country code \"124\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "AB",
+                  "offset": 15
+                },
+                {
+                  "val": "0",
+                  "offset": 34
+                },
+                {
+                  "val": "124",
+                  "offset": 55
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_verifies_json(String,int,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 108786000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should see the status code for State 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 42
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_should_see_the_status_code_state(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ZDServerTests"
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "Verify State - Province controller",
+        "description": "",
+        "id": "state---province-validation;verify-state---province-controller;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 56101400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The base URI is up and running for state API",
+            "match": {
+              "location": "ZipToDestAPIStepDefinition.the_base_URI_is_up_and_running_state()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 39997600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User verifies \"AL\" in particular \"1\" and country code \"840\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "AL",
+                  "offset": 15
+                },
+                {
+                  "val": "1",
+                  "offset": 34
+                },
+                {
+                  "val": "840",
+                  "offset": 55
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_verifies_json(String,int,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2914800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should see the status code for State 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 42
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_should_see_the_status_code_state(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ZDServerTests"
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "Verify State - Province controller",
+        "description": "",
+        "id": "state---province-validation;verify-state---province-controller;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 56840100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The base URI is up and running for state API",
+            "match": {
+              "location": "ZipToDestAPIStepDefinition.the_base_URI_is_up_and_running_state()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 34133800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User verifies \"BC\" in particular \"2\" and country code \"124\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "BC",
+                  "offset": 15
+                },
+                {
+                  "val": "2",
+                  "offset": 34
+                },
+                {
+                  "val": "124",
+                  "offset": 55
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_verifies_json(String,int,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1368100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should see the status code for State 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 42
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_should_see_the_status_code_state(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ZDServerTests"
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "Verify State - Province controller",
+        "description": "",
+        "id": "state---province-validation;verify-state---province-controller;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 37934900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The base URI is up and running for state API",
+            "match": {
+              "location": "ZipToDestAPIStepDefinition.the_base_URI_is_up_and_running_state()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 33507400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User verifies \"CT\" in particular \"3\" and country code \"840\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "CT",
+                  "offset": 15
+                },
+                {
+                  "val": "3",
+                  "offset": 34
+                },
+                {
+                  "val": "840",
+                  "offset": 55
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_verifies_json(String,int,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1223300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should see the status code for State 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 42
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_should_see_the_status_code_state(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ZDServerTests"
+          }
+        ]
+      },
+      {
+        "line": 16,
+        "name": "Verify State - Province controller",
+        "description": "",
+        "id": "state---province-validation;verify-state---province-controller;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 37074600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The base URI is up and running for state API",
+            "match": {
+              "location": "ZipToDestAPIStepDefinition.the_base_URI_is_up_and_running_state()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 29685300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User verifies \"FL\" in particular \"4\" and country code \"840\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "FL",
+                  "offset": 15
+                },
+                {
+                  "val": "4",
+                  "offset": 34
+                },
+                {
+                  "val": "840",
+                  "offset": 55
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_verifies_json(String,int,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1291500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should see the status code for State 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 42
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_should_see_the_status_code_state(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ZDServerTests"
+          }
+        ]
+      },
+      {
+        "line": 17,
+        "name": "Verify State - Province controller",
+        "description": "",
+        "id": "state---province-validation;verify-state---province-controller;;7",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 37587300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The base URI is up and running for state API",
+            "match": {
+              "location": "ZipToDestAPIStepDefinition.the_base_URI_is_up_and_running_state()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 29401600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User verifies \"GA\" in particular \"5\" and country code \"840\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "GA",
+                  "offset": 15
+                },
+                {
+                  "val": "5",
+                  "offset": 34
+                },
+                {
+                  "val": "840",
+                  "offset": 55
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_verifies_json(String,int,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1245500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should see the status code for State 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 42
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_should_see_the_status_code_state(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ZDServerTests"
+          }
+        ]
+      },
+      {
+        "line": 18,
+        "name": "Verify State - Province controller",
+        "description": "",
+        "id": "state---province-validation;verify-state---province-controller;;8",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 38291800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The base URI is up and running for state API",
+            "match": {
+              "location": "ZipToDestAPIStepDefinition.the_base_URI_is_up_and_running_state()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 26605300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User verifies \"ME\" in particular \"6\" and country code \"840\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ME",
+                  "offset": 15
+                },
+                {
+                  "val": "6",
+                  "offset": 34
+                },
+                {
+                  "val": "840",
+                  "offset": 55
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_verifies_json(String,int,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1169000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should see the status code for State 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 42
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_should_see_the_status_code_state(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ZDServerTests"
+          }
+        ]
+      },
+      {
+        "line": 19,
+        "name": "Verify State - Province controller",
+        "description": "",
+        "id": "state---province-validation;verify-state---province-controller;;9",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 34202100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The base URI is up and running for state API",
+            "match": {
+              "location": "ZipToDestAPIStepDefinition.the_base_URI_is_up_and_running_state()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 36274700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User verifies \"MI\" in particular \"7\" and country code \"840\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "MI",
+                  "offset": 15
+                },
+                {
+                  "val": "7",
+                  "offset": 34
+                },
+                {
+                  "val": "840",
+                  "offset": 55
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_verifies_json(String,int,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1015000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should see the status code for State 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 42
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_should_see_the_status_code_state(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ZDServerTests"
+          }
+        ]
+      },
+      {
+        "line": 20,
+        "name": "Verify State - Province controller",
+        "description": "",
+        "id": "state---province-validation;verify-state---province-controller;;10",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 35899700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The base URI is up and running for state API",
+            "match": {
+              "location": "ZipToDestAPIStepDefinition.the_base_URI_is_up_and_running_state()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 26502500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User verifies \"MT\" in particular \"8\" and country code \"840\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "MT",
+                  "offset": 15
+                },
+                {
+                  "val": "8",
+                  "offset": 34
+                },
+                {
+                  "val": "840",
+                  "offset": 55
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_verifies_json(String,int,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 952600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should see the status code for State 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 42
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_should_see_the_status_code_state(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ZDServerTests"
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "Verify State - Province controller",
+        "description": "",
+        "id": "state---province-validation;verify-state---province-controller;;11",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 34681500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The base URI is up and running for state API",
+            "match": {
+              "location": "ZipToDestAPIStepDefinition.the_base_URI_is_up_and_running_state()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 25684000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User verifies \"NC\" in particular \"9\" and country code \"840\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "NC",
+                  "offset": 15
+                },
+                {
+                  "val": "9",
+                  "offset": 34
+                },
+                {
+                  "val": "840",
+                  "offset": 55
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_verifies_json(String,int,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 909100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should see the status code for State 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 42
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_should_see_the_status_code_state(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ZDServerTests"
+          }
+        ]
+      },
+      {
+        "line": 22,
+        "name": "Verify State - Province controller",
+        "description": "",
+        "id": "state---province-validation;verify-state---province-controller;;12",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 34012000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The base URI is up and running for state API",
+            "match": {
+              "location": "ZipToDestAPIStepDefinition.the_base_URI_is_up_and_running_state()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 26282400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User verifies \"NY\" in particular \"10\" and country code \"840\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "NY",
+                  "offset": 15
+                },
+                {
+                  "val": "10",
+                  "offset": 34
+                },
+                {
+                  "val": "840",
+                  "offset": 56
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_verifies_json(String,int,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 881500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should see the status code for State 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 42
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_should_see_the_status_code_state(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ZDServerTests"
+          }
+        ]
+      },
+      {
+        "line": 23,
+        "name": "Verify State - Province controller",
+        "description": "",
+        "id": "state---province-validation;verify-state---province-controller;;13",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 33940200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The base URI is up and running for state API",
+            "match": {
+              "location": "ZipToDestAPIStepDefinition.the_base_URI_is_up_and_running_state()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 25157900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User verifies \"OH\" in particular \"11\" and country code \"840\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "OH",
+                  "offset": 15
+                },
+                {
+                  "val": "11",
+                  "offset": 34
+                },
+                {
+                  "val": "840",
+                  "offset": 56
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_verifies_json(String,int,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 951700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should see the status code for State 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 42
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_should_see_the_status_code_state(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ZDServerTests"
+          }
+        ]
+      },
+      {
+        "line": 24,
+        "name": "Verify State - Province controller",
+        "description": "",
+        "id": "state---province-validation;verify-state---province-controller;;14",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 32557600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The base URI is up and running for state API",
+            "match": {
+              "location": "ZipToDestAPIStepDefinition.the_base_URI_is_up_and_running_state()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 25436100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User verifies \"ON\" in particular \"12\" and country code \"124\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ON",
+                  "offset": 15
+                },
+                {
+                  "val": "12",
+                  "offset": 34
+                },
+                {
+                  "val": "124",
+                  "offset": 56
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_verifies_json(String,int,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 874300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should see the status code for State 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 42
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_should_see_the_status_code_state(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ZDServerTests"
+          }
+        ]
+      },
+      {
+        "line": 25,
+        "name": "Verify State - Province controller",
+        "description": "",
+        "id": "state---province-validation;verify-state---province-controller;;15",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 31579500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The base URI is up and running for state API",
+            "match": {
+              "location": "ZipToDestAPIStepDefinition.the_base_URI_is_up_and_running_state()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 25050800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User verifies \"PA\" in particular \"13\" and country code \"840\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "PA",
+                  "offset": 15
+                },
+                {
+                  "val": "13",
+                  "offset": 34
+                },
+                {
+                  "val": "840",
+                  "offset": 56
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_verifies_json(String,int,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1142200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should see the status code for State 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 42
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_should_see_the_status_code_state(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ZDServerTests"
+          }
+        ]
+      },
+      {
+        "line": 26,
+        "name": "Verify State - Province controller",
+        "description": "",
+        "id": "state---province-validation;verify-state---province-controller;;16",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 33941000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The base URI is up and running for state API",
+            "match": {
+              "location": "ZipToDestAPIStepDefinition.the_base_URI_is_up_and_running_state()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 23961800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User verifies \"QC\" in particular \"14\" and country code \"124\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "QC",
+                  "offset": 15
+                },
+                {
+                  "val": "14",
+                  "offset": 34
+                },
+                {
+                  "val": "124",
+                  "offset": 56
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_verifies_json(String,int,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 924800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should see the status code for State 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 42
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_should_see_the_status_code_state(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ZDServerTests"
+          }
+        ]
+      },
+      {
+        "line": 27,
+        "name": "Verify State - Province controller",
+        "description": "",
+        "id": "state---province-validation;verify-state---province-controller;;17",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 32805700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The base URI is up and running for state API",
+            "match": {
+              "location": "ZipToDestAPIStepDefinition.the_base_URI_is_up_and_running_state()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 27965600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User verifies \"SC\" in particular \"15\" and country code \"840\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "SC",
+                  "offset": 15
+                },
+                {
+                  "val": "15",
+                  "offset": 34
+                },
+                {
+                  "val": "840",
+                  "offset": 56
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_verifies_json(String,int,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2167100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should see the status code for State 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 42
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_should_see_the_status_code_state(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ZDServerTests"
+          }
+        ]
+      },
+      {
+        "line": 28,
+        "name": "Verify State - Province controller",
+        "description": "",
+        "id": "state---province-validation;verify-state---province-controller;;18",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 33634600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The base URI is up and running for state API",
+            "match": {
+              "location": "ZipToDestAPIStepDefinition.the_base_URI_is_up_and_running_state()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 31385100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User verifies \"VA\" in particular \"16\" and country code \"840\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "VA",
+                  "offset": 15
+                },
+                {
+                  "val": "16",
+                  "offset": 34
+                },
+                {
+                  "val": "840",
+                  "offset": 56
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_verifies_json(String,int,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 921400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should see the status code for State 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 42
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_should_see_the_status_code_state(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ZDServerTests"
+          }
+        ]
+      },
+      {
+        "line": 29,
+        "name": "Verify State - Province controller",
+        "description": "",
+        "id": "state---province-validation;verify-state---province-controller;;19",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 32858500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The base URI is up and running for state API",
+            "match": {
+              "location": "ZipToDestAPIStepDefinition.the_base_URI_is_up_and_running_state()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 22510800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User verifies \"WA\" in particular \"17\" and country code \"840\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "WA",
+                  "offset": 15
+                },
+                {
+                  "val": "17",
+                  "offset": 34
+                },
+                {
+                  "val": "840",
+                  "offset": 56
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_verifies_json(String,int,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 715000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should see the status code for State 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 42
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_should_see_the_status_code_state(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ZDServerTests"
+          }
+        ]
+      },
+      {
+        "line": 30,
+        "name": "Verify State - Province controller",
+        "description": "",
+        "id": "state---province-validation;verify-state---province-controller;;20",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 54830800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The base URI is up and running for state API",
+            "match": {
+              "location": "ZipToDestAPIStepDefinition.the_base_URI_is_up_and_running_state()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 25233500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User verifies \"WV\" in particular \"18\" and country code \"840\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "WV",
+                  "offset": 15
+                },
+                {
+                  "val": "18",
+                  "offset": 34
+                },
+                {
+                  "val": "840",
+                  "offset": 56
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_verifies_json(String,int,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 760300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should see the status code for State 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 42
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_should_see_the_status_code_state(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ZDServerTests"
+          }
+        ]
+      },
+      {
+        "line": 43,
+        "name": "Verify User unable to get State for invalid URL",
+        "description": "",
+        "id": "state---province-validation;verify-user-unable-to-get-state-for-invalid-url;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 29909700,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "The base URI is up and running for state API",
+            "match": {
+              "location": "ZipToDestAPIStepDefinition.the_base_URI_is_up_and_running_state()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 28095300,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "user performs invalid request for State-province controller",
+            "match": {
+              "location": "ZipToDestAPIStepDefinition.user_perform_invalid_request_state()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 696200,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "User should see the status code for State 404",
+            "match": {
+              "arguments": [
+                {
+                  "val": "404",
+                  "offset": 42
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_should_see_the_status_code_state(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ZDServerTests"
+          }
+        ]
+      }
+    ],
+    "name": "State - province validation",
+    "description": "",
+    "id": "state---province-validation",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/State-Province.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 12,
+        "name": "Grid API Test cases to Add data for USA",
+        "description": "",
+        "id": "zip-to-destination-api-test-cases-for-add-api;grid-api-test-cases-to-add-data-for-usa;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 50466600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The base URI is up and running for Add API",
+            "match": {
+              "location": "ZipToDestAPIStepDefinition.the_base_URI_is_up_and_running_add()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 84057400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User sends create request with body \"840\" \"Mohan\" \"11\" \"FHDL\" \"AK\" and \"(GMT-6:00) US/Central\" to add details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "840",
+                  "offset": 37
+                },
+                {
+                  "val": "Mohan",
+                  "offset": 43
+                },
+                {
+                  "val": "11",
+                  "offset": 51
+                },
+                {
+                  "val": "FHDL",
+                  "offset": 56
+                },
+                {
+                  "val": "AK",
+                  "offset": 63
+                },
+                {
+                  "val": "(GMT-6:00) US/Central",
+                  "offset": 72
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_sends_add_details_US_country(String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 641600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should see the status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 32
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_should_see_the_status_code(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ZDServerTests"
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "Grid API Test cases to Add data for USA",
+        "description": "",
+        "id": "zip-to-destination-api-test-cases-for-add-api;grid-api-test-cases-to-add-data-for-usa;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 32755500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The base URI is up and running for Add API",
+            "match": {
+              "location": "ZipToDestAPIStepDefinition.the_base_URI_is_up_and_running_add()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 11256400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User sends create request with body \"840\" \"Mohan\" \"17\" \"FXG\" \"DC\" and \"(GMT-9:00) US/Alaska\" to add details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "840",
+                  "offset": 37
+                },
+                {
+                  "val": "Mohan",
+                  "offset": 43
+                },
+                {
+                  "val": "17",
+                  "offset": 51
+                },
+                {
+                  "val": "FXG",
+                  "offset": 56
+                },
+                {
+                  "val": "DC",
+                  "offset": 62
+                },
+                {
+                  "val": "(GMT-9:00) US/Alaska",
+                  "offset": 71
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_sends_add_details_US_country(String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 615100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should see the status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 32
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_should_see_the_status_code(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ZDServerTests"
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "Grid API Test cases to Add data for USA",
+        "description": "",
+        "id": "zip-to-destination-api-test-cases-for-add-api;grid-api-test-cases-to-add-data-for-usa;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 30380700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The base URI is up and running for Add API",
+            "match": {
+              "location": "ZipToDestAPIStepDefinition.the_base_URI_is_up_and_running_add()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9876600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User sends create request with body \"840\" \"Mohan\" \"28\" \"FXSP\" \"NY\" and \"(GMT-10:00) US/Hawaii\" to add details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "840",
+                  "offset": 37
+                },
+                {
+                  "val": "Mohan",
+                  "offset": 43
+                },
+                {
+                  "val": "28",
+                  "offset": 51
+                },
+                {
+                  "val": "FXSP",
+                  "offset": 56
+                },
+                {
+                  "val": "NY",
+                  "offset": 63
+                },
+                {
+                  "val": "(GMT-10:00) US/Hawaii",
+                  "offset": 72
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_sends_add_details_US_country(String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 604400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should see the status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 32
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_should_see_the_status_code(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ZDServerTests"
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "Grid API Test cases to Add data for USA",
+        "description": "",
+        "id": "zip-to-destination-api-test-cases-for-add-api;grid-api-test-cases-to-add-data-for-usa;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 35663800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The base URI is up and running for Add API",
+            "match": {
+              "location": "ZipToDestAPIStepDefinition.the_base_URI_is_up_and_running_add()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 13048600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User sends create request with body \"840\" \"Mohan\" \"34\" \"FHD\" \"OH\" and \"(GMT-8:00) US/Pacific\" to add details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "840",
+                  "offset": 37
+                },
+                {
+                  "val": "Mohan",
+                  "offset": 43
+                },
+                {
+                  "val": "34",
+                  "offset": 51
+                },
+                {
+                  "val": "FHD",
+                  "offset": 56
+                },
+                {
+                  "val": "OH",
+                  "offset": 62
+                },
+                {
+                  "val": "(GMT-8:00) US/Pacific",
+                  "offset": 71
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_sends_add_details_US_country(String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 898100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should see the status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 32
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_should_see_the_status_code(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ZDServerTests"
+          }
+        ]
+      },
+      {
+        "line": 16,
+        "name": "Grid API Test cases to Add data for USA",
+        "description": "",
+        "id": "zip-to-destination-api-test-cases-for-add-api;grid-api-test-cases-to-add-data-for-usa;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 30896900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The base URI is up and running for Add API",
+            "match": {
+              "location": "ZipToDestAPIStepDefinition.the_base_URI_is_up_and_running_add()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10150100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User sends create request with body \"840\" \"Mohan\" \"24\" \"FHD\" \"WA\" and \"(GMT-5:00) US/Eastern\" to add details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "840",
+                  "offset": 37
+                },
+                {
+                  "val": "Mohan",
+                  "offset": 43
+                },
+                {
+                  "val": "24",
+                  "offset": 51
+                },
+                {
+                  "val": "FHD",
+                  "offset": 56
+                },
+                {
+                  "val": "WA",
+                  "offset": 62
+                },
+                {
+                  "val": "(GMT-5:00) US/Eastern",
+                  "offset": 71
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_sends_add_details_US_country(String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 581700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should see the status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 32
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_should_see_the_status_code(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ZDServerTests"
+          }
+        ]
+      },
+      {
+        "line": 28,
+        "name": "Grid API Test cases to Add data for Canada",
+        "description": "",
+        "id": "zip-to-destination-api-test-cases-for-add-api;grid-api-test-cases-to-add-data-for-canada;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 31236300,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "The base URI is up and running for Add API",
+            "match": {
+              "location": "ZipToDestAPIStepDefinition.the_base_URI_is_up_and_running_add()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10808400,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User sends create request with body \"124\" \"Mohan\" \"9\" \"FHDL\" \"AB\" \"(GMT-6:00) Canada/Central\" and \"A0A2A0\" to add details for Country Canada",
+            "match": {
+              "arguments": [
+                {
+                  "val": "124",
+                  "offset": 37
+                },
+                {
+                  "val": "Mohan",
+                  "offset": 43
+                },
+                {
+                  "val": "9",
+                  "offset": 51
+                },
+                {
+                  "val": "FHDL",
+                  "offset": 55
+                },
+                {
+                  "val": "AB",
+                  "offset": 62
+                },
+                {
+                  "val": "(GMT-6:00) Canada/Central",
+                  "offset": 67
+                },
+                {
+                  "val": "A0A2A0",
+                  "offset": 99
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_sends_add_details_canada_country(String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ZDServerTests"
+          }
+        ]
+      },
+      {
+        "line": 29,
+        "name": "Grid API Test cases to Add data for Canada",
+        "description": "",
+        "id": "zip-to-destination-api-test-cases-for-add-api;grid-api-test-cases-to-add-data-for-canada;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 37105400,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "The base URI is up and running for Add API",
+            "match": {
+              "location": "ZipToDestAPIStepDefinition.the_base_URI_is_up_and_running_add()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 20177800,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User sends create request with body \"124\" \"Mohan\" \"16\" \"FHDL\" \"BC\" \"(GMT-9:00) Canada/Alaska\" and \"A0B1A3\" to add details for Country Canada",
+            "match": {
+              "arguments": [
+                {
+                  "val": "124",
+                  "offset": 37
+                },
+                {
+                  "val": "Mohan",
+                  "offset": 43
+                },
+                {
+                  "val": "16",
+                  "offset": 51
+                },
+                {
+                  "val": "FHDL",
+                  "offset": 56
+                },
+                {
+                  "val": "BC",
+                  "offset": 63
+                },
+                {
+                  "val": "(GMT-9:00) Canada/Alaska",
+                  "offset": 68
+                },
+                {
+                  "val": "A0B1A3",
+                  "offset": 99
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_sends_add_details_canada_country(String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ZDServerTests"
+          }
+        ]
+      },
+      {
+        "line": 30,
+        "name": "Grid API Test cases to Add data for Canada",
+        "description": "",
+        "id": "zip-to-destination-api-test-cases-for-add-api;grid-api-test-cases-to-add-data-for-canada;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 39181200,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "The base URI is up and running for Add API",
+            "match": {
+              "location": "ZipToDestAPIStepDefinition.the_base_URI_is_up_and_running_add()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 16520500,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User sends create request with body \"124\" \"Mohan\" \"18\" \"FHDL\" \"ON\" \"(GMT-10:00) Canada/Hawaii\" and \"A0C8M9\" to add details for Country Canada",
+            "match": {
+              "arguments": [
+                {
+                  "val": "124",
+                  "offset": 37
+                },
+                {
+                  "val": "Mohan",
+                  "offset": 43
+                },
+                {
+                  "val": "18",
+                  "offset": 51
+                },
+                {
+                  "val": "FHDL",
+                  "offset": 56
+                },
+                {
+                  "val": "ON",
+                  "offset": 63
+                },
+                {
+                  "val": "(GMT-10:00) Canada/Hawaii",
+                  "offset": 68
+                },
+                {
+                  "val": "A0C8M9",
+                  "offset": 100
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_sends_add_details_canada_country(String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ZDServerTests"
+          }
+        ]
+      },
+      {
+        "line": 31,
+        "name": "Grid API Test cases to Add data for Canada",
+        "description": "",
+        "id": "zip-to-destination-api-test-cases-for-add-api;grid-api-test-cases-to-add-data-for-canada;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 31234200,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "The base URI is up and running for Add API",
+            "match": {
+              "location": "ZipToDestAPIStepDefinition.the_base_URI_is_up_and_running_add()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 11936800,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User sends create request with body \"124\" \"Mohan\" \"25\" \"FHDL\" \"AB\" \"(GMT-8:00) Canada/Pacific\" and \"A0J4M6\" to add details for Country Canada",
+            "match": {
+              "arguments": [
+                {
+                  "val": "124",
+                  "offset": 37
+                },
+                {
+                  "val": "Mohan",
+                  "offset": 43
+                },
+                {
+                  "val": "25",
+                  "offset": 51
+                },
+                {
+                  "val": "FHDL",
+                  "offset": 56
+                },
+                {
+                  "val": "AB",
+                  "offset": 63
+                },
+                {
+                  "val": "(GMT-8:00) Canada/Pacific",
+                  "offset": 68
+                },
+                {
+                  "val": "A0J4M6",
+                  "offset": 100
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_sends_add_details_canada_country(String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ZDServerTests"
+          }
+        ]
+      },
+      {
+        "line": 32,
+        "name": "Grid API Test cases to Add data for Canada",
+        "description": "",
+        "id": "zip-to-destination-api-test-cases-for-add-api;grid-api-test-cases-to-add-data-for-canada;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 31769500,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "The base URI is up and running for Add API",
+            "match": {
+              "location": "ZipToDestAPIStepDefinition.the_base_URI_is_up_and_running_add()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9866400,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User sends create request with body \"124\" \"Mohan\" \"29\" \"FHDL\" \"QC\" \"(GMT-5:00) Canada/Eastern\" and \"A0K1C5\" to add details for Country Canada",
+            "match": {
+              "arguments": [
+                {
+                  "val": "124",
+                  "offset": 37
+                },
+                {
+                  "val": "Mohan",
+                  "offset": 43
+                },
+                {
+                  "val": "29",
+                  "offset": 51
+                },
+                {
+                  "val": "FHDL",
+                  "offset": 56
+                },
+                {
+                  "val": "QC",
+                  "offset": 63
+                },
+                {
+                  "val": "(GMT-5:00) Canada/Eastern",
+                  "offset": 68
+                },
+                {
+                  "val": "A0K1C5",
+                  "offset": 100
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_sends_add_details_canada_country(String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ZDServerTests"
+          }
+        ]
+      },
+      {
+        "line": 45,
+        "name": "Grid API Test cases to Add data for Invalid link",
+        "description": "",
+        "id": "zip-to-destination-api-test-cases-for-add-api;grid-api-test-cases-to-add-data-for-invalid-link;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 28449100,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "The base URI is up and running for Add API",
+            "match": {
+              "location": "ZipToDestAPIStepDefinition.the_base_URI_is_up_and_running_add()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 11210000,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "User sends create request with body \"840\" \"Mohan\" \"18\" \"FHDL\" \"PA\" and \"(GMT-6:00) US/Central\" to add details invalid",
+            "match": {
+              "arguments": [
+                {
+                  "val": "840",
+                  "offset": 37
+                },
+                {
+                  "val": "Mohan",
+                  "offset": 43
+                },
+                {
+                  "val": "18",
+                  "offset": 51
+                },
+                {
+                  "val": "FHDL",
+                  "offset": 56
+                },
+                {
+                  "val": "PA",
+                  "offset": 63
+                },
+                {
+                  "val": "(GMT-6:00) US/Central",
+                  "offset": 72
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_sends_add_details_invalid(String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 662900,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "User should see the status code 404",
+            "match": {
+              "arguments": [
+                {
+                  "val": "404",
+                  "offset": 32
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_should_see_the_status_code(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ZDServerTests"
+          }
+        ]
+      },
+      {
+        "line": 58,
+        "name": "Grid API Test cases to Add data for Invalid Data",
+        "description": "",
+        "id": "zip-to-destination-api-test-cases-for-add-api;grid-api-test-cases-to-add-data-for-invalid-data;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 27857200,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "The base URI is up and running for Add API",
+            "match": {
+              "location": "ZipToDestAPIStepDefinition.the_base_URI_is_up_and_running_add()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8360400,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "User sends create request with body \"840\" \"Mohan\" \"12\" \"FHDL\" \"AK\" and \"(GMT-6:00) US/Central\" to add details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "840",
+                  "offset": 37
+                },
+                {
+                  "val": "Mohan",
+                  "offset": 43
+                },
+                {
+                  "val": "12",
+                  "offset": 51
+                },
+                {
+                  "val": "FHDL",
+                  "offset": 56
+                },
+                {
+                  "val": "AK",
+                  "offset": 63
+                },
+                {
+                  "val": "(GMT-6:00) US/Central",
+                  "offset": 72
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_sends_add_details_US_country(String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 679700,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "User should see the status code 400",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 32
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_should_see_the_status_code(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ZDServerTests"
+          }
+        ]
+      },
+      {
+        "line": 59,
+        "name": "Grid API Test cases to Add data for Invalid Data",
+        "description": "",
+        "id": "zip-to-destination-api-test-cases-for-add-api;grid-api-test-cases-to-add-data-for-invalid-data;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 27862800,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "The base URI is up and running for Add API",
+            "match": {
+              "location": "ZipToDestAPIStepDefinition.the_base_URI_is_up_and_running_add()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8838600,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "User sends create request with body \"840\" \"Mohan\" \"16\" \"ABCD\" \"AK\" and \"(GMT-9:00) Canada/Alaska\" to add details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "840",
+                  "offset": 37
+                },
+                {
+                  "val": "Mohan",
+                  "offset": 43
+                },
+                {
+                  "val": "16",
+                  "offset": 51
+                },
+                {
+                  "val": "ABCD",
+                  "offset": 56
+                },
+                {
+                  "val": "AK",
+                  "offset": 63
+                },
+                {
+                  "val": "(GMT-9:00) Canada/Alaska",
+                  "offset": 72
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_sends_add_details_US_country(String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 772100,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "User should see the status code 400",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 32
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_should_see_the_status_code(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ZDServerTests"
+          }
+        ]
+      },
+      {
+        "line": 60,
+        "name": "Grid API Test cases to Add data for Invalid Data",
+        "description": "",
+        "id": "zip-to-destination-api-test-cases-for-add-api;grid-api-test-cases-to-add-data-for-invalid-data;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 27010900,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "The base URI is up and running for Add API",
+            "match": {
+              "location": "ZipToDestAPIStepDefinition.the_base_URI_is_up_and_running_add()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8653500,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "User sends create request with body \"840\" \"Mohan\" \"28\" \"FXG\" \"AK\" and \"(GMT-10:00)\" to add details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "840",
+                  "offset": 37
+                },
+                {
+                  "val": "Mohan",
+                  "offset": 43
+                },
+                {
+                  "val": "28",
+                  "offset": 51
+                },
+                {
+                  "val": "FXG",
+                  "offset": 56
+                },
+                {
+                  "val": "AK",
+                  "offset": 62
+                },
+                {
+                  "val": "(GMT-10:00)",
+                  "offset": 71
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_sends_add_details_US_country(String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 699300,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "User should see the status code 400",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 32
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_should_see_the_status_code(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ZDServerTests"
+          }
+        ]
+      },
+      {
+        "line": 73,
+        "name": "Grid API Test cases to Add data for Invalid Date",
+        "description": "",
+        "id": "zip-to-destination-api-test-cases-for-add-api;grid-api-test-cases-to-add-data-for-invalid-date;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 31269700,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "The base URI is up and running for Add API",
+            "match": {
+              "location": "ZipToDestAPIStepDefinition.the_base_URI_is_up_and_running_add()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9792300,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "User sends create request with body \"840\" \"Mohan\" \"2019-05-11.10:22:52\" \"11\" \"FHDL\" \"AK\" and \"(GMT-6:00) US/Central\" to add details for invalid data",
+            "match": {
+              "arguments": [
+                {
+                  "val": "840",
+                  "offset": 37
+                },
+                {
+                  "val": "Mohan",
+                  "offset": 43
+                },
+                {
+                  "val": "2019-05-11.10:22:52",
+                  "offset": 51
+                },
+                {
+                  "val": "11",
+                  "offset": 73
+                },
+                {
+                  "val": "FHDL",
+                  "offset": 78
+                },
+                {
+                  "val": "AK",
+                  "offset": 85
+                },
+                {
+                  "val": "(GMT-6:00) US/Central",
+                  "offset": 94
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_sends_add_details_invalid_entry(String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 736300,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "User should see the status code 400",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 32
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_should_see_the_status_code(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ZDServerTests"
+          }
+        ]
+      }
+    ],
+    "name": "Zip to Destination API Test cases for ADD API",
+    "description": "",
+    "id": "zip-to-destination-api-test-cases-for-add-api",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/ZipToDest_ADD_API.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 14,
+        "name": "Grid API Test cases to Add data for USA",
+        "description": "",
+        "id": "zip-to-destination-api-test-cases-for-delete-api;grid-api-test-cases-to-add-data-for-usa;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 28385700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The base URI is up and running for Add API",
+            "match": {
+              "location": "ZipToDestAPIStepDefinition.the_base_URI_is_up_and_running_add()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9556000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User sends create request with body \"840\" \"Mohan\" \"11\" \"FHDL\" \"AK\" and \"(GMT-6:00) US/Central\" to add details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "840",
+                  "offset": 37
+                },
+                {
+                  "val": "Mohan",
+                  "offset": 43
+                },
+                {
+                  "val": "11",
+                  "offset": 51
+                },
+                {
+                  "val": "FHDL",
+                  "offset": 56
+                },
+                {
+                  "val": "AK",
+                  "offset": 63
+                },
+                {
+                  "val": "(GMT-6:00) US/Central",
+                  "offset": 72
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_sends_add_details_US_country(String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 519100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should see the status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 32
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_should_see_the_status_code(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 16673500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User should delete the data which has been added \"Mohan\" \"FHDL\" \"(GMT-6:00) US/Central\" for US Country on \"23\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mohan",
+                  "offset": 50
+                },
+                {
+                  "val": "FHDL",
+                  "offset": 58
+                },
+                {
+                  "val": "(GMT-6:00) US/Central",
+                  "offset": 65
+                },
+                {
+                  "val": "23",
+                  "offset": 107
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_delete_request_with_body_add_US(String,String,String,int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 723500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User should see the status code 400",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 32
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_should_see_the_status_code(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ZDServerTests"
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "Grid API Test cases to Add data for USA",
+        "description": "",
+        "id": "zip-to-destination-api-test-cases-for-delete-api;grid-api-test-cases-to-add-data-for-usa;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 27531600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The base URI is up and running for Add API",
+            "match": {
+              "location": "ZipToDestAPIStepDefinition.the_base_URI_is_up_and_running_add()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10240300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User sends create request with body \"840\" \"Mohan\" \"17\" \"FXG\" \"DC\" and \"(GMT-9:00) US/Alaska\" to add details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "840",
+                  "offset": 37
+                },
+                {
+                  "val": "Mohan",
+                  "offset": 43
+                },
+                {
+                  "val": "17",
+                  "offset": 51
+                },
+                {
+                  "val": "FXG",
+                  "offset": 56
+                },
+                {
+                  "val": "DC",
+                  "offset": 62
+                },
+                {
+                  "val": "(GMT-9:00) US/Alaska",
+                  "offset": 71
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_sends_add_details_US_country(String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 561000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should see the status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 32
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_should_see_the_status_code(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8973500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User should delete the data which has been added \"Mohan\" \"FXG\" \"(GMT-9:00) US/Alaska\" for US Country on \"35\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mohan",
+                  "offset": 50
+                },
+                {
+                  "val": "FXG",
+                  "offset": 58
+                },
+                {
+                  "val": "(GMT-9:00) US/Alaska",
+                  "offset": 64
+                },
+                {
+                  "val": "35",
+                  "offset": 105
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_delete_request_with_body_add_US(String,String,String,int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 672900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User should see the status code 400",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 32
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_should_see_the_status_code(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ZDServerTests"
+          }
+        ]
+      },
+      {
+        "line": 16,
+        "name": "Grid API Test cases to Add data for USA",
+        "description": "",
+        "id": "zip-to-destination-api-test-cases-for-delete-api;grid-api-test-cases-to-add-data-for-usa;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 29644000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The base URI is up and running for Add API",
+            "match": {
+              "location": "ZipToDestAPIStepDefinition.the_base_URI_is_up_and_running_add()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 11183900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User sends create request with body \"840\" \"Mohan\" \"28\" \"FXSP\" \"NY\" and \"(GMT-10:00) US/Hawaii\" to add details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "840",
+                  "offset": 37
+                },
+                {
+                  "val": "Mohan",
+                  "offset": 43
+                },
+                {
+                  "val": "28",
+                  "offset": 51
+                },
+                {
+                  "val": "FXSP",
+                  "offset": 56
+                },
+                {
+                  "val": "NY",
+                  "offset": 63
+                },
+                {
+                  "val": "(GMT-10:00) US/Hawaii",
+                  "offset": 72
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_sends_add_details_US_country(String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 530200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should see the status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 32
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_should_see_the_status_code(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10895800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User should delete the data which has been added \"Mohan\" \"FXSP\" \"(GMT-10:00) US/Hawaii\" for US Country on \"12\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mohan",
+                  "offset": 50
+                },
+                {
+                  "val": "FXSP",
+                  "offset": 58
+                },
+                {
+                  "val": "(GMT-10:00) US/Hawaii",
+                  "offset": 65
+                },
+                {
+                  "val": "12",
+                  "offset": 107
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_delete_request_with_body_add_US(String,String,String,int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 988600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User should see the status code 400",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 32
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_should_see_the_status_code(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ZDServerTests"
+          }
+        ]
+      },
+      {
+        "line": 17,
+        "name": "Grid API Test cases to Add data for USA",
+        "description": "",
+        "id": "zip-to-destination-api-test-cases-for-delete-api;grid-api-test-cases-to-add-data-for-usa;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 29617600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The base URI is up and running for Add API",
+            "match": {
+              "location": "ZipToDestAPIStepDefinition.the_base_URI_is_up_and_running_add()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9802600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User sends create request with body \"840\" \"Mohan\" \"34\" \"FHD\" \"OH\" and \"(GMT-8:00) US/Pacific\" to add details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "840",
+                  "offset": 37
+                },
+                {
+                  "val": "Mohan",
+                  "offset": 43
+                },
+                {
+                  "val": "34",
+                  "offset": 51
+                },
+                {
+                  "val": "FHD",
+                  "offset": 56
+                },
+                {
+                  "val": "OH",
+                  "offset": 62
+                },
+                {
+                  "val": "(GMT-8:00) US/Pacific",
+                  "offset": 71
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_sends_add_details_US_country(String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 560700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should see the status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 32
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_should_see_the_status_code(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8407300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User should delete the data which has been added \"Mohan\" \"FHD\" \"(GMT-8:00) US/Pacific\" for US Country on \"46\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mohan",
+                  "offset": 50
+                },
+                {
+                  "val": "FHD",
+                  "offset": 58
+                },
+                {
+                  "val": "(GMT-8:00) US/Pacific",
+                  "offset": 64
+                },
+                {
+                  "val": "46",
+                  "offset": 106
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_delete_request_with_body_add_US(String,String,String,int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 688700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User should see the status code 400",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 32
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_should_see_the_status_code(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ZDServerTests"
+          }
+        ]
+      },
+      {
+        "line": 18,
+        "name": "Grid API Test cases to Add data for USA",
+        "description": "",
+        "id": "zip-to-destination-api-test-cases-for-delete-api;grid-api-test-cases-to-add-data-for-usa;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 26690200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The base URI is up and running for Add API",
+            "match": {
+              "location": "ZipToDestAPIStepDefinition.the_base_URI_is_up_and_running_add()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9621700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User sends create request with body \"840\" \"Mohan\" \"24\" \"FHD\" \"WA\" and \"(GMT-5:00) US/Eastern\" to add details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "840",
+                  "offset": 37
+                },
+                {
+                  "val": "Mohan",
+                  "offset": 43
+                },
+                {
+                  "val": "24",
+                  "offset": 51
+                },
+                {
+                  "val": "FHD",
+                  "offset": 56
+                },
+                {
+                  "val": "WA",
+                  "offset": 62
+                },
+                {
+                  "val": "(GMT-5:00) US/Eastern",
+                  "offset": 71
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_sends_add_details_US_country(String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1238100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should see the status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 32
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_should_see_the_status_code(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8573300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User should delete the data which has been added \"Mohan\" \"FHD\" \"(GMT-5:00) US/Eastern\" for US Country on \"98\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mohan",
+                  "offset": 50
+                },
+                {
+                  "val": "FHD",
+                  "offset": 58
+                },
+                {
+                  "val": "(GMT-5:00) US/Eastern",
+                  "offset": 64
+                },
+                {
+                  "val": "98",
+                  "offset": 106
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_delete_request_with_body_add_US(String,String,String,int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 738300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User should see the status code 400",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 32
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_should_see_the_status_code(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ZDServerTests"
+          }
+        ]
+      },
+      {
+        "line": 33,
+        "name": "Grid API Test cases to Add data for Canada",
+        "description": "",
+        "id": "zip-to-destination-api-test-cases-for-delete-api;grid-api-test-cases-to-add-data-for-canada;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 25704900,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "The base URI is up and running for Add API",
+            "match": {
+              "location": "ZipToDestAPIStepDefinition.the_base_URI_is_up_and_running_add()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8900300,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User sends create request with body \"124\" \"Mohan\" \"16\" \"FHDL\" \"AB\" \"(GMT-6:00) Canada/Central\" and \"A0A2A0\" to add details for Country Canada",
+            "match": {
+              "arguments": [
+                {
+                  "val": "124",
+                  "offset": 37
+                },
+                {
+                  "val": "Mohan",
+                  "offset": 43
+                },
+                {
+                  "val": "16",
+                  "offset": 51
+                },
+                {
+                  "val": "FHDL",
+                  "offset": 56
+                },
+                {
+                  "val": "AB",
+                  "offset": 63
+                },
+                {
+                  "val": "(GMT-6:00) Canada/Central",
+                  "offset": 68
+                },
+                {
+                  "val": "A0A2A0",
+                  "offset": 100
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_sends_add_details_canada_country(String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 820200,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User should see the status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 32
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_should_see_the_status_code(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8297600,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User should delete the data which has been added \"Mohan\" \"A0A2A0\" \"FHDL\" \"(GMT-6:00) Canada/Central\" for Canada Country",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mohan",
+                  "offset": 50
+                },
+                {
+                  "val": "A0A2A0",
+                  "offset": 58
+                },
+                {
+                  "val": "FHDL",
+                  "offset": 67
+                },
+                {
+                  "val": "(GMT-6:00) Canada/Central",
+                  "offset": 74
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_delete_request_with_body_add_canada(String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 818400,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User should see the status code 400",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 32
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_should_see_the_status_code(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ZDServerTests"
+          }
+        ]
+      },
+      {
+        "line": 34,
+        "name": "Grid API Test cases to Add data for Canada",
+        "description": "",
+        "id": "zip-to-destination-api-test-cases-for-delete-api;grid-api-test-cases-to-add-data-for-canada;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 28023000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "The base URI is up and running for Add API",
+            "match": {
+              "location": "ZipToDestAPIStepDefinition.the_base_URI_is_up_and_running_add()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9815300,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User sends create request with body \"124\" \"Mohan\" \"25\" \"FHDL\" \"AB\" \"(GMT-8:00) Canada/Pacific\" and \"A0J8M6\" to add details for Country Canada",
+            "match": {
+              "arguments": [
+                {
+                  "val": "124",
+                  "offset": 37
+                },
+                {
+                  "val": "Mohan",
+                  "offset": 43
+                },
+                {
+                  "val": "25",
+                  "offset": 51
+                },
+                {
+                  "val": "FHDL",
+                  "offset": 56
+                },
+                {
+                  "val": "AB",
+                  "offset": 63
+                },
+                {
+                  "val": "(GMT-8:00) Canada/Pacific",
+                  "offset": 68
+                },
+                {
+                  "val": "A0J8M6",
+                  "offset": 100
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_sends_add_details_canada_country(String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 574800,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User should see the status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 32
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_should_see_the_status_code(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8878600,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User should delete the data which has been added \"Mohan\" \"A0J8M6\" \"FHDL\" \"(GMT-8:00) Canada/Pacific\" for Canada Country",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mohan",
+                  "offset": 50
+                },
+                {
+                  "val": "A0J8M6",
+                  "offset": 58
+                },
+                {
+                  "val": "FHDL",
+                  "offset": 67
+                },
+                {
+                  "val": "(GMT-8:00) Canada/Pacific",
+                  "offset": 74
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_delete_request_with_body_add_canada(String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 724200,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User should see the status code 400",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 32
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_should_see_the_status_code(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ZDServerTests"
+          }
+        ]
+      },
+      {
+        "line": 35,
+        "name": "Grid API Test cases to Add data for Canada",
+        "description": "",
+        "id": "zip-to-destination-api-test-cases-for-delete-api;grid-api-test-cases-to-add-data-for-canada;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 29202800,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "The base URI is up and running for Add API",
+            "match": {
+              "location": "ZipToDestAPIStepDefinition.the_base_URI_is_up_and_running_add()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9208900,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User sends create request with body \"124\" \"Mohan\" \"29\" \"FHDL\" \"QC\" \"(GMT-5:00) Canada/Eastern\" and \"A0K3C5\" to add details for Country Canada",
+            "match": {
+              "arguments": [
+                {
+                  "val": "124",
+                  "offset": 37
+                },
+                {
+                  "val": "Mohan",
+                  "offset": 43
+                },
+                {
+                  "val": "29",
+                  "offset": 51
+                },
+                {
+                  "val": "FHDL",
+                  "offset": 56
+                },
+                {
+                  "val": "QC",
+                  "offset": 63
+                },
+                {
+                  "val": "(GMT-5:00) Canada/Eastern",
+                  "offset": 68
+                },
+                {
+                  "val": "A0K3C5",
+                  "offset": 100
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_sends_add_details_canada_country(String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 489800,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User should see the status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 32
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_should_see_the_status_code(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10609100,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User should delete the data which has been added \"Mohan\" \"A0K3C5\" \"FHDL\" \"(GMT-5:00) Canada/Eastern\" for Canada Country",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mohan",
+                  "offset": 50
+                },
+                {
+                  "val": "A0K3C5",
+                  "offset": 58
+                },
+                {
+                  "val": "FHDL",
+                  "offset": 67
+                },
+                {
+                  "val": "(GMT-5:00) Canada/Eastern",
+                  "offset": 74
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_delete_request_with_body_add_canada(String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 645800,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User should see the status code 400",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 32
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_should_see_the_status_code(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ZDServerTests"
+          }
+        ]
+      }
+    ],
+    "name": "Zip to Destination API Test cases for DELETE API",
+    "description": "",
+    "id": "zip-to-destination-api-test-cases-for-delete-api",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/ZipToDest_Delete_API.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 14,
+        "name": "Grid API Test cases to Modify data",
+        "description": "",
+        "id": "zip-to-destination-api-test-cases-for-modify-api;grid-api-test-cases-to-modify-data;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 29189500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The base URI is up and running for Add API",
+            "match": {
+              "location": "ZipToDestAPIStepDefinition.the_base_URI_is_up_and_running_add()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9222600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User sends create request with body \"840\" \"Mohan\" \"11\" \"FHDL\" \"AK\" and \"(GMT-6:00) US/Central\" to add details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "840",
+                  "offset": 37
+                },
+                {
+                  "val": "Mohan",
+                  "offset": 43
+                },
+                {
+                  "val": "11",
+                  "offset": 51
+                },
+                {
+                  "val": "FHDL",
+                  "offset": 56
+                },
+                {
+                  "val": "AK",
+                  "offset": 63
+                },
+                {
+                  "val": "(GMT-6:00) US/Central",
+                  "offset": 72
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_sends_add_details_US_country(String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 549000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should see the status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 32
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_should_see_the_status_code(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 13944600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User sends create request with body \"840\" \"Mohan\" \"16\" \"FHDL\" \"AK\" and \"(GMT-6:00) US/Central\" to modify details with specific \"23\" of zipcode",
+            "match": {
+              "arguments": [
+                {
+                  "val": "840",
+                  "offset": 37
+                },
+                {
+                  "val": "Mohan",
+                  "offset": 43
+                },
+                {
+                  "val": "16",
+                  "offset": 51
+                },
+                {
+                  "val": "FHDL",
+                  "offset": 56
+                },
+                {
+                  "val": "AK",
+                  "offset": 63
+                },
+                {
+                  "val": "(GMT-6:00) US/Central",
+                  "offset": 72
+                },
+                {
+                  "val": "23",
+                  "offset": 128
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_sends_Modifies_details_US_country(String,String,String,String,String,String,int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1440300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User should see the status code 400",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 32
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_should_see_the_status_code(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ZDServerTests"
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "Grid API Test cases to Modify data",
+        "description": "",
+        "id": "zip-to-destination-api-test-cases-for-modify-api;grid-api-test-cases-to-modify-data;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 27833100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The base URI is up and running for Add API",
+            "match": {
+              "location": "ZipToDestAPIStepDefinition.the_base_URI_is_up_and_running_add()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8813000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User sends create request with body \"840\" \"Mohan\" \"17\" \"FXG\" \"DC\" and \"(GMT-9:00) US/Alaska\" to add details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "840",
+                  "offset": 37
+                },
+                {
+                  "val": "Mohan",
+                  "offset": 43
+                },
+                {
+                  "val": "17",
+                  "offset": 51
+                },
+                {
+                  "val": "FXG",
+                  "offset": 56
+                },
+                {
+                  "val": "DC",
+                  "offset": 62
+                },
+                {
+                  "val": "(GMT-9:00) US/Alaska",
+                  "offset": 71
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_sends_add_details_US_country(String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 534000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should see the status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 32
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_should_see_the_status_code(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 11155200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User sends create request with body \"840\" \"Mohan\" \"20\" \"FXG\" \"DC\" and \"(GMT-9:00) US/Alaska\" to modify details with specific \"35\" of zipcode",
+            "match": {
+              "arguments": [
+                {
+                  "val": "840",
+                  "offset": 37
+                },
+                {
+                  "val": "Mohan",
+                  "offset": 43
+                },
+                {
+                  "val": "20",
+                  "offset": 51
+                },
+                {
+                  "val": "FXG",
+                  "offset": 56
+                },
+                {
+                  "val": "DC",
+                  "offset": 62
+                },
+                {
+                  "val": "(GMT-9:00) US/Alaska",
+                  "offset": 71
+                },
+                {
+                  "val": "35",
+                  "offset": 126
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_sends_Modifies_details_US_country(String,String,String,String,String,String,int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 635600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User should see the status code 400",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 32
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_should_see_the_status_code(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ZDServerTests"
+          }
+        ]
+      },
+      {
+        "line": 16,
+        "name": "Grid API Test cases to Modify data",
+        "description": "",
+        "id": "zip-to-destination-api-test-cases-for-modify-api;grid-api-test-cases-to-modify-data;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 26081300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The base URI is up and running for Add API",
+            "match": {
+              "location": "ZipToDestAPIStepDefinition.the_base_URI_is_up_and_running_add()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8220900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User sends create request with body \"840\" \"Mohan\" \"28\" \"FXSP\" \"NY\" and \"(GMT-10:00) US/Hawaii\" to add details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "840",
+                  "offset": 37
+                },
+                {
+                  "val": "Mohan",
+                  "offset": 43
+                },
+                {
+                  "val": "28",
+                  "offset": 51
+                },
+                {
+                  "val": "FXSP",
+                  "offset": 56
+                },
+                {
+                  "val": "NY",
+                  "offset": 63
+                },
+                {
+                  "val": "(GMT-10:00) US/Hawaii",
+                  "offset": 72
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_sends_add_details_US_country(String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 503400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should see the status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 32
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_should_see_the_status_code(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8546900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User sends create request with body \"840\" \"Mohan\" \"27\" \"FXSP\" \"NY\" and \"(GMT-10:00) US/Hawaii\" to modify details with specific \"12\" of zipcode",
+            "match": {
+              "arguments": [
+                {
+                  "val": "840",
+                  "offset": 37
+                },
+                {
+                  "val": "Mohan",
+                  "offset": 43
+                },
+                {
+                  "val": "27",
+                  "offset": 51
+                },
+                {
+                  "val": "FXSP",
+                  "offset": 56
+                },
+                {
+                  "val": "NY",
+                  "offset": 63
+                },
+                {
+                  "val": "(GMT-10:00) US/Hawaii",
+                  "offset": 72
+                },
+                {
+                  "val": "12",
+                  "offset": 128
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_sends_Modifies_details_US_country(String,String,String,String,String,String,int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 639400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User should see the status code 400",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 32
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_should_see_the_status_code(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ZDServerTests"
+          }
+        ]
+      },
+      {
+        "line": 17,
+        "name": "Grid API Test cases to Modify data",
+        "description": "",
+        "id": "zip-to-destination-api-test-cases-for-modify-api;grid-api-test-cases-to-modify-data;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 25913600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The base URI is up and running for Add API",
+            "match": {
+              "location": "ZipToDestAPIStepDefinition.the_base_URI_is_up_and_running_add()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8075900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User sends create request with body \"840\" \"Mohan\" \"34\" \"FHD\" \"OH\" and \"(GMT-8:00) US/Pacific\" to add details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "840",
+                  "offset": 37
+                },
+                {
+                  "val": "Mohan",
+                  "offset": 43
+                },
+                {
+                  "val": "34",
+                  "offset": 51
+                },
+                {
+                  "val": "FHD",
+                  "offset": 56
+                },
+                {
+                  "val": "OH",
+                  "offset": 62
+                },
+                {
+                  "val": "(GMT-8:00) US/Pacific",
+                  "offset": 71
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_sends_add_details_US_country(String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 505300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should see the status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 32
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_should_see_the_status_code(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8288300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User sends create request with body \"840\" \"Mohan\" \"31\" \"FHD\" \"OH\" and \"(GMT-8:00) US/Pacific\" to modify details with specific \"46\" of zipcode",
+            "match": {
+              "arguments": [
+                {
+                  "val": "840",
+                  "offset": 37
+                },
+                {
+                  "val": "Mohan",
+                  "offset": 43
+                },
+                {
+                  "val": "31",
+                  "offset": 51
+                },
+                {
+                  "val": "FHD",
+                  "offset": 56
+                },
+                {
+                  "val": "OH",
+                  "offset": 62
+                },
+                {
+                  "val": "(GMT-8:00) US/Pacific",
+                  "offset": 71
+                },
+                {
+                  "val": "46",
+                  "offset": 127
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_sends_Modifies_details_US_country(String,String,String,String,String,String,int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 618400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User should see the status code 400",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 32
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_should_see_the_status_code(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ZDServerTests"
+          }
+        ]
+      },
+      {
+        "line": 18,
+        "name": "Grid API Test cases to Modify data",
+        "description": "",
+        "id": "zip-to-destination-api-test-cases-for-modify-api;grid-api-test-cases-to-modify-data;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 31683500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The base URI is up and running for Add API",
+            "match": {
+              "location": "ZipToDestAPIStepDefinition.the_base_URI_is_up_and_running_add()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9128800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User sends create request with body \"840\" \"Mohan\" \"24\" \"FHD\" \"OH\" and \"(GMT-5:00) US/Eastern\" to add details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "840",
+                  "offset": 37
+                },
+                {
+                  "val": "Mohan",
+                  "offset": 43
+                },
+                {
+                  "val": "24",
+                  "offset": 51
+                },
+                {
+                  "val": "FHD",
+                  "offset": 56
+                },
+                {
+                  "val": "OH",
+                  "offset": 62
+                },
+                {
+                  "val": "(GMT-5:00) US/Eastern",
+                  "offset": 71
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_sends_add_details_US_country(String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1110100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should see the status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 32
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_should_see_the_status_code(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8635100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User sends create request with body \"840\" \"Mohan\" \"26\" \"FHD\" \"OH\" and \"(GMT-5:00) US/Eastern\" to modify details with specific \"98\" of zipcode",
+            "match": {
+              "arguments": [
+                {
+                  "val": "840",
+                  "offset": 37
+                },
+                {
+                  "val": "Mohan",
+                  "offset": 43
+                },
+                {
+                  "val": "26",
+                  "offset": 51
+                },
+                {
+                  "val": "FHD",
+                  "offset": 56
+                },
+                {
+                  "val": "OH",
+                  "offset": 62
+                },
+                {
+                  "val": "(GMT-5:00) US/Eastern",
+                  "offset": 71
+                },
+                {
+                  "val": "98",
+                  "offset": 127
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_sends_Modifies_details_US_country(String,String,String,String,String,String,int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 719700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User should see the status code 400",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 32
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_should_see_the_status_code(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ZDServerTests"
+          }
+        ]
+      },
+      {
+        "line": 33,
+        "name": "Grid API Test cases to Modify data for Canada",
+        "description": "",
+        "id": "zip-to-destination-api-test-cases-for-modify-api;grid-api-test-cases-to-modify-data-for-canada;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 27436300,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "The base URI is up and running for Add API",
+            "match": {
+              "location": "ZipToDestAPIStepDefinition.the_base_URI_is_up_and_running_add()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10248900,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User sends create request with body \"124\" \"Mohan\" \"11\" \"FHDL\" \"QC\" \"(GMT-6:00) US/Central\" and \"A0A3A0\" to add details for Country Canada",
+            "match": {
+              "arguments": [
+                {
+                  "val": "124",
+                  "offset": 37
+                },
+                {
+                  "val": "Mohan",
+                  "offset": 43
+                },
+                {
+                  "val": "11",
+                  "offset": 51
+                },
+                {
+                  "val": "FHDL",
+                  "offset": 56
+                },
+                {
+                  "val": "QC",
+                  "offset": 63
+                },
+                {
+                  "val": "(GMT-6:00) US/Central",
+                  "offset": 68
+                },
+                {
+                  "val": "A0A3A0",
+                  "offset": 96
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_sends_add_details_canada_country(String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 530000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User should see the status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 32
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_should_see_the_status_code(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9598900,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User sends create request with body \"124\" \"Mohan\" \"16\" \"FHDL\" \"QC\" and \"(GMT-6:00) US/Central\" \"A0A3A0\" to modify details for canada country",
+            "match": {
+              "arguments": [
+                {
+                  "val": "124",
+                  "offset": 37
+                },
+                {
+                  "val": "Mohan",
+                  "offset": 43
+                },
+                {
+                  "val": "16",
+                  "offset": 51
+                },
+                {
+                  "val": "FHDL",
+                  "offset": 56
+                },
+                {
+                  "val": "QC",
+                  "offset": 63
+                },
+                {
+                  "val": "(GMT-6:00) US/Central",
+                  "offset": 72
+                },
+                {
+                  "val": "A0A3A0",
+                  "offset": 96
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_sends_Modifies_details_Canada_country(String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 665600,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User should see the status code 400",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 32
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_should_see_the_status_code(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ZDServerTests"
+          }
+        ]
+      },
+      {
+        "line": 34,
+        "name": "Grid API Test cases to Modify data for Canada",
+        "description": "",
+        "id": "zip-to-destination-api-test-cases-for-modify-api;grid-api-test-cases-to-modify-data-for-canada;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 29674500,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "The base URI is up and running for Add API",
+            "match": {
+              "location": "ZipToDestAPIStepDefinition.the_base_URI_is_up_and_running_add()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8966600,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User sends create request with body \"124\" \"Mohan\" \"25\" \"FHDL\" \"AB\" \"(GMT-8:00) US/Pacific\" and \"A0J1M6\" to add details for Country Canada",
+            "match": {
+              "arguments": [
+                {
+                  "val": "124",
+                  "offset": 37
+                },
+                {
+                  "val": "Mohan",
+                  "offset": 43
+                },
+                {
+                  "val": "25",
+                  "offset": 51
+                },
+                {
+                  "val": "FHDL",
+                  "offset": 56
+                },
+                {
+                  "val": "AB",
+                  "offset": 63
+                },
+                {
+                  "val": "(GMT-8:00) US/Pacific",
+                  "offset": 68
+                },
+                {
+                  "val": "A0J1M6",
+                  "offset": 96
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_sends_add_details_canada_country(String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 508100,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User should see the status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 32
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_should_see_the_status_code(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7762800,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User sends create request with body \"124\" \"Mohan\" \"26\" \"FHDL\" \"AB\" and \"(GMT-8:00) US/Pacific\" \"A0J1M6\" to modify details for canada country",
+            "match": {
+              "arguments": [
+                {
+                  "val": "124",
+                  "offset": 37
+                },
+                {
+                  "val": "Mohan",
+                  "offset": 43
+                },
+                {
+                  "val": "26",
+                  "offset": 51
+                },
+                {
+                  "val": "FHDL",
+                  "offset": 56
+                },
+                {
+                  "val": "AB",
+                  "offset": 63
+                },
+                {
+                  "val": "(GMT-8:00) US/Pacific",
+                  "offset": 72
+                },
+                {
+                  "val": "A0J1M6",
+                  "offset": 96
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_sends_Modifies_details_Canada_country(String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 556200,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User should see the status code 400",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 32
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_should_see_the_status_code(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ZDServerTests"
+          }
+        ]
+      },
+      {
+        "line": 35,
+        "name": "Grid API Test cases to Modify data for Canada",
+        "description": "",
+        "id": "zip-to-destination-api-test-cases-for-modify-api;grid-api-test-cases-to-modify-data-for-canada;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 25709900,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "The base URI is up and running for Add API",
+            "match": {
+              "location": "ZipToDestAPIStepDefinition.the_base_URI_is_up_and_running_add()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 11626400,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User sends create request with body \"124\" \"Mohan\" \"29\" \"FHDL\" \"QC\" \"(GMT-5:00) US/Eastern\" and \"A0K4C5\" to add details for Country Canada",
+            "match": {
+              "arguments": [
+                {
+                  "val": "124",
+                  "offset": 37
+                },
+                {
+                  "val": "Mohan",
+                  "offset": 43
+                },
+                {
+                  "val": "29",
+                  "offset": 51
+                },
+                {
+                  "val": "FHDL",
+                  "offset": 56
+                },
+                {
+                  "val": "QC",
+                  "offset": 63
+                },
+                {
+                  "val": "(GMT-5:00) US/Eastern",
+                  "offset": 68
+                },
+                {
+                  "val": "A0K4C5",
+                  "offset": 96
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_sends_add_details_canada_country(String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 528900,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User should see the status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 32
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_should_see_the_status_code(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8359800,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User sends create request with body \"124\" \"Mohan\" \"31\" \"FHDL\" \"QC\" and \"(GMT-5:00) US/Eastern\" \"A0K4C5\" to modify details for canada country",
+            "match": {
+              "arguments": [
+                {
+                  "val": "124",
+                  "offset": 37
+                },
+                {
+                  "val": "Mohan",
+                  "offset": 43
+                },
+                {
+                  "val": "31",
+                  "offset": 51
+                },
+                {
+                  "val": "FHDL",
+                  "offset": 56
+                },
+                {
+                  "val": "QC",
+                  "offset": 63
+                },
+                {
+                  "val": "(GMT-5:00) US/Eastern",
+                  "offset": 72
+                },
+                {
+                  "val": "A0K4C5",
+                  "offset": 96
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_sends_Modifies_details_Canada_country(String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 721000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User should see the status code 400",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 32
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_should_see_the_status_code(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ZDServerTests"
+          }
+        ]
+      },
+      {
+        "line": 48,
+        "name": "Grid API Test cases to Modify data for Invalid URL",
+        "description": "",
+        "id": "zip-to-destination-api-test-cases-for-modify-api;grid-api-test-cases-to-modify-data-for-invalid-url;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 26017900,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "The base URI is up and running for Add API",
+            "match": {
+              "location": "ZipToDestAPIStepDefinition.the_base_URI_is_up_and_running_add()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10703100,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "User sends create request with body \"840\" \"Mohan\" \"18\" \"FHDL\" \"PA\" and \"(GMT-6:00) US/Central\" to modify details invalid URL",
+            "match": {
+              "arguments": [
+                {
+                  "val": "840",
+                  "offset": 37
+                },
+                {
+                  "val": "Mohan",
+                  "offset": 43
+                },
+                {
+                  "val": "18",
+                  "offset": 51
+                },
+                {
+                  "val": "FHDL",
+                  "offset": 56
+                },
+                {
+                  "val": "PA",
+                  "offset": 63
+                },
+                {
+                  "val": "(GMT-6:00) US/Central",
+                  "offset": 72
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_sends_Modifies_details_US_country_invalidURL(String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 544900,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "User should see the status code 404",
+            "match": {
+              "arguments": [
+                {
+                  "val": "404",
+                  "offset": 32
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_should_see_the_status_code(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ZDServerTests"
+          }
+        ]
+      },
+      {
+        "line": 61,
+        "name": "Grid API Test cases to Modify data for Invalid Data",
+        "description": "",
+        "id": "zip-to-destination-api-test-cases-for-modify-api;grid-api-test-cases-to-modify-data-for-invalid-data;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 26200100,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "The base URI is up and running for Add API",
+            "match": {
+              "location": "ZipToDestAPIStepDefinition.the_base_URI_is_up_and_running_add()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7618000,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "User sends create request with body \"840\" \"Mohan\" \"12\" \"FHDL\" \"AK\" and \"(GMT-6:00) US/Central\" to modify details with specific of zipcode for invalid data",
+            "match": {
+              "arguments": [
+                {
+                  "val": "840",
+                  "offset": 37
+                },
+                {
+                  "val": "Mohan",
+                  "offset": 43
+                },
+                {
+                  "val": "12",
+                  "offset": 51
+                },
+                {
+                  "val": "FHDL",
+                  "offset": 56
+                },
+                {
+                  "val": "AK",
+                  "offset": 63
+                },
+                {
+                  "val": "(GMT-6:00) US/Central",
+                  "offset": 72
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_sends_Modifies_details_US_country_invalid_data(String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 761500,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "User should see the status code 400",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 32
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_should_see_the_status_code(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ZDServerTests"
+          }
+        ]
+      },
+      {
+        "line": 62,
+        "name": "Grid API Test cases to Modify data for Invalid Data",
+        "description": "",
+        "id": "zip-to-destination-api-test-cases-for-modify-api;grid-api-test-cases-to-modify-data-for-invalid-data;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 27343000,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "The base URI is up and running for Add API",
+            "match": {
+              "location": "ZipToDestAPIStepDefinition.the_base_URI_is_up_and_running_add()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8161200,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "User sends create request with body \"840\" \"Mohan\" \"16\" \"ABCD\" \"AK\" and \"(GMT-9:00) Canada/Alaska\" to modify details with specific of zipcode for invalid data",
+            "match": {
+              "arguments": [
+                {
+                  "val": "840",
+                  "offset": 37
+                },
+                {
+                  "val": "Mohan",
+                  "offset": 43
+                },
+                {
+                  "val": "16",
+                  "offset": 51
+                },
+                {
+                  "val": "ABCD",
+                  "offset": 56
+                },
+                {
+                  "val": "AK",
+                  "offset": 63
+                },
+                {
+                  "val": "(GMT-9:00) Canada/Alaska",
+                  "offset": 72
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_sends_Modifies_details_US_country_invalid_data(String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 634000,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "User should see the status code 400",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 32
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_should_see_the_status_code(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ZDServerTests"
+          }
+        ]
+      },
+      {
+        "line": 63,
+        "name": "Grid API Test cases to Modify data for Invalid Data",
+        "description": "",
+        "id": "zip-to-destination-api-test-cases-for-modify-api;grid-api-test-cases-to-modify-data-for-invalid-data;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 28061600,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "The base URI is up and running for Add API",
+            "match": {
+              "location": "ZipToDestAPIStepDefinition.the_base_URI_is_up_and_running_add()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7987000,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "User sends create request with body \"840\" \"Mohan\" \"28\" \"FXG\" \"AK\" and \"(GMT-10:00)\" to modify details with specific of zipcode for invalid data",
+            "match": {
+              "arguments": [
+                {
+                  "val": "840",
+                  "offset": 37
+                },
+                {
+                  "val": "Mohan",
+                  "offset": 43
+                },
+                {
+                  "val": "28",
+                  "offset": 51
+                },
+                {
+                  "val": "FXG",
+                  "offset": 56
+                },
+                {
+                  "val": "AK",
+                  "offset": 62
+                },
+                {
+                  "val": "(GMT-10:00)",
+                  "offset": 71
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_sends_Modifies_details_US_country_invalid_data(String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 644400,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "User should see the status code 400",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 32
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_should_see_the_status_code(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ZDServerTests"
+          }
+        ]
+      },
+      {
+        "line": 79,
+        "name": "Grid API Test cases to Modify data for Invalid Data",
+        "description": "",
+        "id": "zip-to-destination-api-test-cases-for-modify-api;grid-api-test-cases-to-modify-data-for-invalid-data;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 31154900,
+              "status": "passed"
+            },
+            "line": 73,
+            "name": "The base URI is up and running for Add API",
+            "match": {
+              "location": "ZipToDestAPIStepDefinition.the_base_URI_is_up_and_running_add()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8863700,
+              "status": "passed"
+            },
+            "line": 74,
+            "name": "User sends create request with body \"840\" \"Mohan\" \"2019-05-11.10:22:52\" \"11\" \"FHDL\" \"AK\" and \"(GMT-6:00) US/Central\" to modify details for invalid date",
+            "match": {
+              "arguments": [
+                {
+                  "val": "840",
+                  "offset": 37
+                },
+                {
+                  "val": "Mohan",
+                  "offset": 43
+                },
+                {
+                  "val": "2019-05-11.10:22:52",
+                  "offset": 51
+                },
+                {
+                  "val": "11",
+                  "offset": 73
+                },
+                {
+                  "val": "FHDL",
+                  "offset": 78
+                },
+                {
+                  "val": "AK",
+                  "offset": 85
+                },
+                {
+                  "val": "(GMT-6:00) US/Central",
+                  "offset": 94
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_sends_modify_details_invalid_date(String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 633000,
+              "status": "passed"
+            },
+            "line": 75,
+            "name": "User should see the status code 400",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 32
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_should_see_the_status_code(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ZDServerTests"
+          }
+        ]
+      }
+    ],
+    "name": "Zip to Destination API Test cases for MODIFY API",
+    "description": "",
+    "id": "zip-to-destination-api-test-cases-for-modify-api",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/ZipToDest_Modify_API.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 12,
+        "name": "Verify State - Province controller",
+        "description": "",
+        "id": "network-validation-zdiseries;verify-state---province-controller;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 28171700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The base URI is up and running for Network API",
+            "match": {
+              "location": "ZipToDestAPIStepDefinition.the_base_URI_is_up_and_running_network()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 38773800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User verify network \"FXI\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "FXI",
+                  "offset": 21
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_verifies_json_network(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 495000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should see the status code for Network 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 44
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_should_see_the_status_code_network(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ZDServerTests"
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "Verify State - Province controller",
+        "description": "",
+        "id": "network-validation-zdiseries;verify-state---province-controller;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 28108800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The base URI is up and running for Network API",
+            "match": {
+              "location": "ZipToDestAPIStepDefinition.the_base_URI_is_up_and_running_network()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 59934000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User verify network \"FXG\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "FXG",
+                  "offset": 21
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_verifies_json_network(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 534000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should see the status code for Network 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 44
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_should_see_the_status_code_network(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ZDServerTests"
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "Verify State - Province controller",
+        "description": "",
+        "id": "network-validation-zdiseries;verify-state---province-controller;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 27081000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The base URI is up and running for Network API",
+            "match": {
+              "location": "ZipToDestAPIStepDefinition.the_base_URI_is_up_and_running_network()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 20639700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User verify network \"FXF\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "FXF",
+                  "offset": 21
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_verifies_json_network(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 509900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should see the status code for Network 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 44
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_should_see_the_status_code_network(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ZDServerTests"
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "Verify State - Province controller",
+        "description": "",
+        "id": "network-validation-zdiseries;verify-state---province-controller;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 28309800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The base URI is up and running for Network API",
+            "match": {
+              "location": "ZipToDestAPIStepDefinition.the_base_URI_is_up_and_running_network()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 89615600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User verify network \"FXP\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "FXP",
+                  "offset": 21
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_verifies_json_network(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 588300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should see the status code for Network 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 44
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_should_see_the_status_code_network(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ZDServerTests"
+          }
+        ]
+      },
+      {
+        "line": 16,
+        "name": "Verify State - Province controller",
+        "description": "",
+        "id": "network-validation-zdiseries;verify-state---province-controller;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 32547200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The base URI is up and running for Network API",
+            "match": {
+              "location": "ZipToDestAPIStepDefinition.the_base_URI_is_up_and_running_network()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 107167300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User verify network \"FXM\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "FXM",
+                  "offset": 21
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_verifies_json_network(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1156100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should see the status code for Network 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 44
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_should_see_the_status_code_network(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ZDServerTests"
+          }
+        ]
+      },
+      {
+        "line": 17,
+        "name": "Verify State - Province controller",
+        "description": "",
+        "id": "network-validation-zdiseries;verify-state---province-controller;;7",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 29102300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The base URI is up and running for Network API",
+            "match": {
+              "location": "ZipToDestAPIStepDefinition.the_base_URI_is_up_and_running_network()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 89866800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User verify network \"FXSP\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "FXSP",
+                  "offset": 21
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_verifies_json_network(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 604800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should see the status code for Network 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 44
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_should_see_the_status_code_network(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ZDServerTests"
+          }
+        ]
+      },
+      {
+        "line": 18,
+        "name": "Verify State - Province controller",
+        "description": "",
+        "id": "network-validation-zdiseries;verify-state---province-controller;;8",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 27791600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The base URI is up and running for Network API",
+            "match": {
+              "location": "ZipToDestAPIStepDefinition.the_base_URI_is_up_and_running_network()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 14844800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User verify network \"FXJ\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "FXJ",
+                  "offset": 21
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_verifies_json_network(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 514700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should see the status code for Network 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 44
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_should_see_the_status_code_network(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ZDServerTests"
+          }
+        ]
+      },
+      {
+        "line": 19,
+        "name": "Verify State - Province controller",
+        "description": "",
+        "id": "network-validation-zdiseries;verify-state---province-controller;;9",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 27376100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The base URI is up and running for Network API",
+            "match": {
+              "location": "ZipToDestAPIStepDefinition.the_base_URI_is_up_and_running_network()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 55285200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User verify network \"FXN\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "FXN",
+                  "offset": 21
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_verifies_json_network(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 527300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should see the status code for Network 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 44
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_should_see_the_status_code_network(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ZDServerTests"
+          }
+        ]
+      },
+      {
+        "line": 20,
+        "name": "Verify State - Province controller",
+        "description": "",
+        "id": "network-validation-zdiseries;verify-state---province-controller;;10",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 71231500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The base URI is up and running for Network API",
+            "match": {
+              "location": "ZipToDestAPIStepDefinition.the_base_URI_is_up_and_running_network()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 79682400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User verify network \"FXL\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "FXL",
+                  "offset": 21
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_verifies_json_network(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 576600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should see the status code for Network 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 44
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_should_see_the_status_code_network(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ZDServerTests"
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "Verify State - Province controller",
+        "description": "",
+        "id": "network-validation-zdiseries;verify-state---province-controller;;11",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 25918200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The base URI is up and running for Network API",
+            "match": {
+              "location": "ZipToDestAPIStepDefinition.the_base_URI_is_up_and_running_network()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 64289500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User verify network \"FHD\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "FHD",
+                  "offset": 21
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_verifies_json_network(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 519500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should see the status code for Network 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 44
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_should_see_the_status_code_network(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ZDServerTests"
+          }
+        ]
+      },
+      {
+        "line": 22,
+        "name": "Verify State - Province controller",
+        "description": "",
+        "id": "network-validation-zdiseries;verify-state---province-controller;;12",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 25530200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The base URI is up and running for Network API",
+            "match": {
+              "location": "ZipToDestAPIStepDefinition.the_base_URI_is_up_and_running_network()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 41688300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User verify network \"FXH\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "FXH",
+                  "offset": 21
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_verifies_json_network(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 539300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should see the status code for Network 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 44
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_should_see_the_status_code_network(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ZDServerTests"
+          }
+        ]
+      },
+      {
+        "line": 23,
+        "name": "Verify State - Province controller",
+        "description": "",
+        "id": "network-validation-zdiseries;verify-state---province-controller;;13",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 27480600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The base URI is up and running for Network API",
+            "match": {
+              "location": "ZipToDestAPIStepDefinition.the_base_URI_is_up_and_running_network()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 60007800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User verify network \"FXK\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "FXK",
+                  "offset": 21
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_verifies_json_network(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 520000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should see the status code for Network 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 44
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_should_see_the_status_code_network(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ZDServerTests"
+          }
+        ]
+      },
+      {
+        "line": 24,
+        "name": "Verify State - Province controller",
+        "description": "",
+        "id": "network-validation-zdiseries;verify-state---province-controller;;14",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 26734400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The base URI is up and running for Network API",
+            "match": {
+              "location": "ZipToDestAPIStepDefinition.the_base_URI_is_up_and_running_network()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 167023500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User verify network \"FXO\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "FXO",
+                  "offset": 21
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_verifies_json_network(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 584200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should see the status code for Network 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 44
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_should_see_the_status_code_network(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ZDServerTests"
+          }
+        ]
+      },
+      {
+        "line": 25,
+        "name": "Verify State - Province controller",
+        "description": "",
+        "id": "network-validation-zdiseries;verify-state---province-controller;;15",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 26869100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The base URI is up and running for Network API",
+            "match": {
+              "location": "ZipToDestAPIStepDefinition.the_base_URI_is_up_and_running_network()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 98868900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User verify network \"FXGL\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "FXGL",
+                  "offset": 21
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_verifies_json_network(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 508200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should see the status code for Network 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 44
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_should_see_the_status_code_network(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ZDServerTests"
+          }
+        ]
+      },
+      {
+        "line": 26,
+        "name": "Verify State - Province controller",
+        "description": "",
+        "id": "network-validation-zdiseries;verify-state---province-controller;;16",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 25822000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The base URI is up and running for Network API",
+            "match": {
+              "location": "ZipToDestAPIStepDefinition.the_base_URI_is_up_and_running_network()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 89557600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User verify network \"FHDL\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "FHDL",
+                  "offset": 21
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_verifies_json_network(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 488900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should see the status code for Network 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 44
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_should_see_the_status_code_network(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ZDServerTests"
+          }
+        ]
+      },
+      {
+        "line": 39,
+        "name": "Verify User unable to get State for invalid URL",
+        "description": "",
+        "id": "network-validation-zdiseries;verify-user-unable-to-get-state-for-invalid-url;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 26024000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "The base URI is up and running for Network API",
+            "match": {
+              "location": "ZipToDestAPIStepDefinition.the_base_URI_is_up_and_running_network()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9524800,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "user performs invalid request for Network controller",
+            "match": {
+              "location": "ZipToDestAPIStepDefinition.user_perform_invalid_request_network()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 776100,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "User should see the status code for Network 404",
+            "match": {
+              "arguments": [
+                {
+                  "val": "404",
+                  "offset": 44
+                }
+              ],
+              "location": "ZipToDestAPIStepDefinition.user_should_see_the_status_code_network(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ZDServerTests"
+          }
+        ]
+      }
+    ],
+    "name": "Network validation ZDIseries",
+    "description": "",
+    "id": "network-validation-zdiseries",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/network.feature",
+    "tags": []
+  }
+]
